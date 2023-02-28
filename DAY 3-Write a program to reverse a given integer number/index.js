@@ -13,7 +13,7 @@ console.log(`Reversed integer is: ${reverseGivenInteger(num)}`);
 let num2 = 3849;
 let result = 0;
 
-function reverseGivenInteger2() {
+function reverseGivenInteger2(num2) {
   while (num2 > 0) {
     lastNum = num2 % 10;
     result = result * 10 + lastNum;
@@ -23,4 +23,4 @@ function reverseGivenInteger2() {
   return;
 }
 
-console.log(`Reversed integer is: ${reverseGivenInteger2()}`);
+console.log(`Reversed integer is: ${reverseGivenInteger2(num2)}`);
